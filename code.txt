@@ -1,0 +1,11 @@
+MVI A,25
+MVI B,00
+MVI C,08
+loop2:RAL
+JC loop1
+INR B
+loop1:DCR C
+JNZ loop2
+MOV A, B
+STA C050
+HLT

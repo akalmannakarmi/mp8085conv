@@ -1,0 +1,20 @@
+{
+    "ACI":"CE",
+    "ADI":"C6",
+    "ANI":"E6",
+    "CPI":"FE",
+    "IN":"DB",
+    "MVI A,":"3E",
+    "MVI B,":"06",
+    "MVI C,":"0E",
+    "MVI D,":"16",
+    "MVI E,":"1E",
+    "MVI H,":"26",
+    "MVI L,":"2E",
+    "MVI M,":"36",
+    "ORI":"F6",
+    "OUT":"D3",
+    "SBI":"DE",
+    "SUI":"D6",
+    "XRI":"EE"
+}

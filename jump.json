@@ -1,0 +1,21 @@
+{
+    "CALL":"CD",
+    "CC":"DC",
+    "CM":"FC",
+    "CNC":"D4",
+    "CNZ":"C4",
+    "CP":"F4",
+    "CPE":"EC",
+    "CPI":"FE",
+    "CPO":"E4",
+    "CZ":"CC",
+    "JC":"DA",
+    "JM":"FA",
+    "JMP":"C3",
+    "JNC":"D2",
+    "JNZ":"C2",
+    "JP":"F2",
+    "JPE":"EA",
+    "JPO":"E2",
+    "JZ":"CA"
+}

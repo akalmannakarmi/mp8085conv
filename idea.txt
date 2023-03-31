@@ -1,0 +1,27 @@
+Read all instruction and their hex values  
+
+Organize the instruction in terms of size 
+
+search for the instruction in the values
+use the value to get its hex value
+if it has more data to add - add it to next addresses
+
+keep track of current instuction addresses 
+and increment for next data
+
+save named addresses to replace when needed
+
+write the result to a file
+
+Program Flow
+1) Read 1 byte instructions
+2) Read 2 byte instructions
+3) Read 3 byte instructions N jump instructions
+4) Find the given instruction in our instructions lists
+5) If its 1 byte instruction add corresponding hex code
+6) If its 2 byte instruction add corresponding hex code and the 1byte data to next address
+7) If its 3 byte instruction add corresponding hex code and the 2 byte data to next addresses
+8) Skip jump address and leave them with the name
+9) Save named addresses in a dictionary
+10) After all instructions replace names in result with their address
+11) Write the result to file
